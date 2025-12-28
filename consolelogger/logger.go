@@ -9,7 +9,7 @@ import (
 type ConsoleLogger struct {
 }
 
-func New(msg string) interface_log.Logger {
+func NewConsoleLogger() interface_log.Logger {
 	return &ConsoleLogger{}
 }
 
